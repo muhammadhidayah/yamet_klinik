@@ -1,0 +1,252 @@
+.wrapper{
+	width: auto;
+	height: auto;
+	position: relative;
+
+}
+@font-face {
+	     font-family: OpenSans-Semibold;
+	     src: url('../font/OpenSans-Semibold.ttf'); 
+	}
+.btnHlogin{
+	background: #f0f0f0;
+	width: auto;
+	height: 50px;
+	padding: 8px;
+	overflow: hidden;
+}
+
+.Hmenu{
+	background: orange;
+	height: 50px;
+}
+.Hmenu ul{
+	background:orange;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+}
+.Hmenu ul li{
+	float: left;
+	margin: 15px 80px;
+	list-style-type: none;
+	height: 30px;
+	width: 20px;
+	text-align: center;
+	font-family: "Montserrat-Light";
+	font-size: 16;
+	/*color: white;*/
+	background: orange;
+
+}
+.header{
+	position: relative;
+	width: 100%
+
+}
+.header ul{
+	background-color:#FFC107;
+	padding-top: 15px;
+	padding-left: 0;
+	height: 90px;
+	width: 100%;
+	overflow: hidden;
+}
+.header li{
+	margin: 4px 1px;
+	width: 14%;
+	float: left;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	/*color: white;*/
+}
+
+.header a{
+	text-transform: uppercase;
+	font-family: OpenSans-Semibold;
+	margin-top: 50px;
+	color: #ffffff;
+}
+
+.header a:hover{
+	text-decoration: none;
+	color: #ffffff;
+     text-shadow: 0 0 3px #ffffff;
+}
+
+.header img{
+	width: 100%;
+	z-index: 999;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.HlogoAtas{
+	position: absolute;
+	right: 40%;
+	top: 3%;
+	overflow: hidden;
+	z-index: 10;
+	/*margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;*/
+}
+.HlogoAtas img{
+	height: 80px;
+	width: auto;
+}
+/*.Pbody {
+	background-color: #f2f2f2;
+	height: 500px;
+}*/
+.slideshow-container{
+	max-width: 1000px;
+  	position: relative;
+  	margin: auto;
+	/*background:#f0f0f0 ;
+	height: 500px;
+	width: auto;*/
+}
+.HjudulBerita{
+	background: #F57C00;
+	height: 50px;
+	width: auto;
+	display: block;
+    text-align: center;
+    padding: 13px 16px;
+}
+
+.HjudulBerita a{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: OpenSans-Semibold;
+	margin-top: 50px;
+	color: #ffffff;
+}
+
+.HjudulBerita a:hover{
+	text-decoration: none;
+	color: #ffffff;
+     text-shadow: 0 0 3px #ffffff;
+}
+
+.menudepannews {
+	background-color: /*#ecf0f1*/#f0f0f0;
+	font-size: 15px;
+
+}
+.menutengahpost {
+	background: url('../img/playstation-pattern.png');
+	max-height: 1720px;
+	font-size: 15px;
+	font-family: verdana;
+
+}
+.footer{
+	background: #f0f0f0;
+	height: 100px;
+	width: auto;
+	/*margin-top: 50px;*/
+	position: relative;
+}
+.logobawah{
+	position:absolute;
+	top:25px;
+	left: 20px;
+	overflow: hidden;
+	
+}
+.logobawah img{
+	width: 100px;
+	height: auto;
+}
+.copyrigth{
+	position: absolute; 
+	bottom: 10px; 
+	right: 45%;
+	font-family: "Montserrat-Light";
+    font-size: 12px;
+    text-align: center;
+}
+.sosialIkon{
+/*	background: black;
+*/	overflow: hidden;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+.sosialIkon img{
+	height: 40px;
+	width: auto;
+}
+
+.bodyLogin{
+	height: 500px;
+	background: url('../img/playstation-pattern.png');
+
+}
+/*.plhLogin{
+	height: 100px;
+	background: red;
+}*/
+.Pbody{
+	height: 500px;
+}
+.Pbody img{
+	height: 500px;
+	
+
+}
+
+#manager {
+    margin: 0;
+    padding: 0;
+    width: 125px;
+}
+
+#manager li {
+    background: #FFC107;
+    border-bottom: 1px solid #FFF;
+    list-style: none;
+    padding: 0.5em;
+    text-align: center;
+    width: 300px;
+}
+#manager li:hover {
+    background: #f2f2f2;
+    color: #1a1a1a;
+}
+
+#manager li a {
+    color: #1a1a1a;
+    display: block;
+    text-decoration: none;
+}
+#manager li.active {
+    background: #f2f2f2;
+}
+
+#manager li.active a {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+/*.bodytTengah{
+	height: 700px;
+	background-color: black;
+}
+*/
+.putih1{
+	margin: 0px 30px;
+	padding : 30px;
+	background: url('../img/playstation-pattern.png');
+
+}
+.putih1 img{
+margin-top: : 20px;
+}
+.imgstaff{
+	margin-bottom: 40px;
+}
+.isi{
+	height: auto;
+}
